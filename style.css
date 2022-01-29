@@ -5,6 +5,8 @@
 }
 :root {
   --h1_font: "Raleway", sans-serif;
+  --li_font: "Raleway", sans-serif;
+
   --blue: #0f123f;
   --orange: #f5862f;
 }
@@ -12,7 +14,10 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 90px;
-  width: 100%;
+  width: auto;
+  margin: 5vh;
+  margin-left: 15vw;
+  margin-right: 15vw;
 }
 
 .header_logo {
@@ -21,4 +26,16 @@ header {
 }
 header nav {
   float: right;
+}
+header li {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-family: var(--li_font);
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
 }
