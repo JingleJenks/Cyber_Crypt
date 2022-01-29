@@ -10,6 +10,8 @@
   --blue: #0f123f;
   --orange: #f5862f;
 }
+/*  */
+/* HEADER*/
 header {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -38,4 +40,34 @@ header ul {
   display: flex;
   list-style: none;
   justify-content: space-around;
+}
+/*  */
+/* MAIN */
+article {
+  display: grid;
+  margin: 5vh;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  font-family: var(--h1_font);
+}
+article h1 {
+  text-align: center;
+  margin-bottom: 5vh;
+}
+img {
+  width: 25vw;
+  height: 10vh;
+  object-fit: cover;
+  margin: auto;
+}
+
+article h2 {
+  margin-top: 10vh;
+}
+article p {
+  line-height: 1.5em;
+  margin-top: 1vh;
+}
+article h3 {
+  margin-top: 3vh;
 }
