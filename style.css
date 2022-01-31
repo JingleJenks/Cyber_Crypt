@@ -71,3 +71,18 @@ article p {
 article h3 {
   margin-top: 3vh;
 }
+.drop_how {
+  margin-left: 5px;
+  transform: translate(0px, 0px) scale(1);
+  transition: transform 0.3s;
+}
+
+.arrow_rotated {
+  transform: rotate(180deg);
+}
+.hidden {
+  display: none;
+}
+article p {
+  display: block;
+}
