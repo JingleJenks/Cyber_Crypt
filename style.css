@@ -65,7 +65,7 @@ article h2 {
   margin-top: 10vh;
 }
 article p {
-  line-height: 1.5em;
+  line-height: 2em;
   margin-top: 1vh;
 }
 article h3 {
@@ -75,18 +75,27 @@ article h3 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  border: grey solid 5px;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+Li {
+  list-style: none;
 }
 .devices li {
-  list-style: none;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 5vh;
-  margin-bottom: 5vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
 }
 .devices img {
   height: 10vh;
   width: auto;
+}
+.orange {
+  color: var(--orange);
+  font-weight: bolder;
 }
 .drop_how {
   margin-left: 5px;
@@ -102,4 +111,21 @@ article h3 {
 }
 article p {
   display: block;
+}
+.types {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: grey solid 5px;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+.top5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: grey solid 5px;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
 }
