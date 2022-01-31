@@ -121,11 +121,29 @@ article p {
   margin-bottom: 2vh;
 }
 .top5 {
-  display: flex;
+  display: grid;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  border: grey solid 5px;
   margin-top: 2vh;
   margin-bottom: 2vh;
+}
+.top5 li {
+  display: grid;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.top5 img {
+  width: 15vw;
+  height: auto;
+}
+.top5 h3 {
+  font-size: 2rem;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
