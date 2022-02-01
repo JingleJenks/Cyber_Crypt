@@ -24,7 +24,7 @@ function drop_close_HOW() {
 }
 
 function drop_close_top5() {
-    console.log("hello");
+    console.log("hello2");
     document.querySelector(".top5_1").addEventListener("click", open_1);
     document.querySelector(".top5_2").addEventListener("click", open_2);
     document.querySelector(".top5_3").addEventListener("click", open_3);
@@ -124,3 +124,23 @@ function drop_close_top5() {
         document.querySelector(".top5_5").removeEventListener("click", close_5);
     }
 }
+
+const innerline = new IntersectionObserver(entries => {
+    // Loop over the entries
+    entries.forEach(entry => {
+
+        const line = entry.target.querySelector('.inner_blue');
+        console.log("line");
+        if (entry.isIntersecting) {
+            // Add the animation class
+            line.classList.add('ani_line')
+
+            return; //if we added the class, end of function 
+        }
+        //once we are no more interesecting, remove the class so that is ready to be added again when in viewport again 
+        line.classList.remove('ani_line')
+
+    });
+
+});
+innerline.observe(document.querySelector('.line_wrapper'));

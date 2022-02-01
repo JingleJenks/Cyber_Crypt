@@ -78,14 +78,43 @@ p {
 h3 {
   margin-top: 3vh;
 }
+.inner_blue {
+  background: linear-gradient(to right, #0f123f, #f5862f);
+  margin: unset;
+  margin-left: -15vw;
+  width: 40%;
+  height: 1vh;
+  border: none;
+}
+.ani_line {
+  animation: line forwards ease-out;
+  animation-duration: 1s;
+  /* animation-delay: 3s; */
+  animation-iteration-count: 1;
+}
+
+@keyframes line {
+  0% {
+    transform: translatex(-10vw);
+    opacity: 0;
+    width: 40%;
+  }
+
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    transform: translateX(0vw);
+    opacity: 1;
+    width: 60%;
+  }
+}
 .devices {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   border: #0f123f solid 5px;
   border-radius: 5px;
-  /* background-color: #0f123f75; */
-
   margin-top: 2vh;
   margin-bottom: 2vh;
 }
