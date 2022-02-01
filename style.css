@@ -13,24 +13,22 @@
 /*  */
 /* HEADER*/
 header {
+  height: 90px;
+  width: 100vw;
+  padding: 5vh;
+  background-color: whitesmoke;
+}
+header nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 90px;
-  width: auto;
-  margin: 5vh;
-  margin-left: 15vw;
-  margin-right: 15vw;
-  align-items: baseline;
+  padding: 0 10vw 0 10vw;
 }
-
 .header_logo {
   float: left;
   font-family: var(--h1_font);
   text-align: left;
 }
-header nav {
-  float: right;
-}
+
 header li {
   display: flex;
   align-items: flex-end;
@@ -40,6 +38,10 @@ header li {
 
 header ul {
   display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  float: right;
+
   list-style: none;
   justify-content: space-around;
 }
@@ -74,6 +76,7 @@ h2 {
 p {
   line-height: 2em;
   margin-top: 1vh;
+  font-size: 1.2em;
 }
 h3 {
   margin-top: 3vh;
@@ -188,7 +191,8 @@ article p {
   margin-right: 8vw;
 }
 .top5 h3 {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
+  font-weight: 400;
   margin: 0;
   position: absolute;
   top: 50%;
