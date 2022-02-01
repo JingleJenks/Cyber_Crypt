@@ -204,3 +204,72 @@ article p {
   text-align: center;
   color: var(--orange);
 }
+@media only screen and (max-width: 1500px) {
+  header nav {
+    grid-template-columns: 0.5fr 1fr;
+    padding: 0 5vw 0 5vw;
+  }
+  header li {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  header nav {
+    grid-template-columns: 0.5fr 1fr;
+    padding: 0 1vw 0 1vw;
+  }
+  header li {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  header ul {
+    display: none;
+  }
+  header li {
+    font-size: 0.8rem;
+  }
+  h1 {
+    font-size: 1.3rem;
+  }
+  img {
+    width: 65vw;
+    height: 20vh;
+    object-fit: cover;
+    margin: auto;
+  }
+  h2 {
+    margin-top: 5vh;
+    font-size: 1.2rem;
+  }
+  p {
+    line-height: 1.5em;
+    margin-top: 1vh;
+    font-size: 1em;
+  }
+  .devices {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 5px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+  .top5 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .top5 img {
+    width: 25vw;
+    height: auto;
+    margin: 2vh;
+  }
+  .top5 h3 {
+    font-size: 1rem;
+  }
+}
