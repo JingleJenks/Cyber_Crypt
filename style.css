@@ -63,6 +63,7 @@ img {
 
 article h2 {
   margin-top: 10vh;
+  text-align: left;
 }
 article p {
   line-height: 2em;
@@ -146,4 +147,7 @@ article p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.top5_drop_h2 {
+  text-align: center;
 }
