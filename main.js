@@ -36,6 +36,10 @@ function drop_close_top5() {
     function open_1() {
         console.log("open security");
         document.querySelector(".drop_top5_1").classList.remove("hidden")
+        document.querySelector(".drop_top5_2").classList.add("hidden")
+        document.querySelector(".drop_top5_3").classList.add("hidden")
+        document.querySelector(".drop_top5_4").classList.add("hidden")
+        document.querySelector(".drop_top5_5").classList.add("hidden")
         document.querySelector(".top5_1").addEventListener("click", close_1);
         document.querySelector(".top5_1").removeEventListener("click", open_1);
     }
@@ -43,6 +47,10 @@ function drop_close_top5() {
     function open_2() {
         console.log("open cut costs");
         document.querySelector(".drop_top5_2").classList.remove("hidden")
+        document.querySelector(".drop_top5_1").classList.add("hidden")
+        document.querySelector(".drop_top5_3").classList.add("hidden")
+        document.querySelector(".drop_top5_4").classList.add("hidden")
+        document.querySelector(".drop_top5_5").classList.add("hidden")
         document.querySelector(".top5_2").addEventListener("click", close_2);
         document.querySelector(".top5_2").removeEventListener("click", open_2);
     }
@@ -50,6 +58,10 @@ function drop_close_top5() {
     function open_3() {
         console.log("open manage");
         document.querySelector(".drop_top5_3").classList.remove("hidden")
+        document.querySelector(".drop_top5_2").classList.add("hidden")
+        document.querySelector(".drop_top5_1").classList.add("hidden")
+        document.querySelector(".drop_top5_4").classList.add("hidden")
+        document.querySelector(".drop_top5_5").classList.add("hidden")
         document.querySelector(".top5_3").addEventListener("click", close_3);
         document.querySelector(".top5_3").removeEventListener("click", open_3);
     }
@@ -57,6 +69,10 @@ function drop_close_top5() {
     function open_4() {
         console.log("open effortless");
         document.querySelector(".drop_top5_4").classList.remove("hidden")
+        document.querySelector(".drop_top5_2").classList.add("hidden")
+        document.querySelector(".drop_top5_3").classList.add("hidden")
+        document.querySelector(".drop_top5_1").classList.add("hidden")
+        document.querySelector(".drop_top5_5").classList.add("hidden")
         document.querySelector(".top5_4").addEventListener("click", close_4);
         document.querySelector(".top5_4").removeEventListener("click", open_4);
     }
@@ -64,6 +80,10 @@ function drop_close_top5() {
     function open_5() {
         console.log("open reliable");
         document.querySelector(".drop_top5_5").classList.remove("hidden")
+        document.querySelector(".drop_top5_2").classList.add("hidden")
+        document.querySelector(".drop_top5_3").classList.add("hidden")
+        document.querySelector(".drop_top5_4").classList.add("hidden")
+        document.querySelector(".drop_top5_1").classList.add("hidden")
         document.querySelector(".top5_5").addEventListener("click", close_5);
         document.querySelector(".top5_5").removeEventListener("click", open_5);
     }
