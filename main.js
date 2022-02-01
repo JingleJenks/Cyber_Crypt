@@ -130,6 +130,7 @@ const innerline = new IntersectionObserver(entries => {
     entries.forEach(entry => {
 
         const line = entry.target.querySelector('.inner_blue');
+
         console.log("line");
         if (entry.isIntersecting) {
             // Add the animation class
@@ -139,8 +140,28 @@ const innerline = new IntersectionObserver(entries => {
         }
         //once we are no more interesecting, remove the class so that is ready to be added again when in viewport again 
         line.classList.remove('ani_line')
-
     });
 
 });
-innerline.observe(document.querySelector('.line_wrapper'));
+innerline.observe(document.querySelector('.line_wrapper'))
+
+
+const innerline2 = new IntersectionObserver(entries => {
+    // Loop over the entries
+    entries.forEach(entry => {
+
+        const line2 = entry.target.querySelector('.inner_blue2');
+
+        console.log("line2");
+        if (entry.isIntersecting) {
+            // Add the animation class
+            line2.classList.add('ani_line')
+
+            return; //if we added the class, end of function 
+        }
+        //once we are no more interesecting, remove the class so that is ready to be added again when in viewport again 
+        line2.classList.remove('ani_line')
+    });
+
+});
+innerline2.observe(document.querySelector('.line_wrapper2'));
