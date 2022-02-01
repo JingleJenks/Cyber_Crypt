@@ -222,6 +222,11 @@ article p {
   header li {
     font-size: 0.8rem;
   }
+  p {
+    line-height: 1.8em;
+    margin-top: 1vh;
+    font-size: 1em;
+  }
   img {
     width: 65vw;
     height: 20vh;
@@ -232,6 +237,10 @@ article p {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+  }
+  .top5_article {
+    margin-left: unset;
+    margin-right: unset;
   }
   .top5 img {
     width: 30vw;
@@ -282,6 +291,10 @@ article p {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+  }
+  .top5_article {
+    margin-left: unset;
+    margin-right: unset;
   }
   .top5 img {
     width: 25vw;
