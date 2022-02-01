@@ -47,6 +47,7 @@ function drop_close_top5() {
     function open_2() {
         console.log("open cut costs");
         document.querySelector(".drop_top5_2").classList.remove("hidden")
+
         document.querySelector(".drop_top5_1").classList.add("hidden")
         document.querySelector(".drop_top5_3").classList.add("hidden")
         document.querySelector(".drop_top5_4").classList.add("hidden")

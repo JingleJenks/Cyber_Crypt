@@ -43,14 +43,14 @@ header ul {
 }
 /*  */
 /* MAIN */
-article {
+main {
   display: grid;
   margin: 5vh;
   margin-left: 15vw;
   margin-right: 15vw;
   font-family: var(--h1_font);
 }
-article h1 {
+h1 {
   text-align: center;
   margin-bottom: 5vh;
 }
@@ -61,15 +61,15 @@ img {
   margin: auto;
 }
 
-article h2 {
+h2 {
   margin-top: 10vh;
   text-align: left;
 }
-article p {
+p {
   line-height: 2em;
   margin-top: 1vh;
 }
-article h3 {
+h3 {
   margin-top: 3vh;
 }
 .devices {
@@ -139,6 +139,10 @@ article p {
 .top5 img {
   width: 10vw;
   height: auto;
+}
+.shadow {
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
 }
 .top5_article {
   margin-left: 8vw;
