@@ -140,6 +140,10 @@ article p {
   width: 10vw;
   height: auto;
 }
+.top5_article {
+  margin-left: 8vw;
+  margin-right: 8vw;
+}
 .top5 h3 {
   font-size: 1.8rem;
   margin: 0;
@@ -148,6 +152,6 @@ article p {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.top5_drop_h2 {
+.top5_h2 {
   text-align: center;
 }
