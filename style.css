@@ -121,26 +121,26 @@ article p {
   margin-bottom: 2vh;
 }
 .top5 {
-  display: grid;
-  flex-direction: column;
+  display: flex;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
   margin-top: 2vh;
   margin-bottom: 2vh;
 }
 .top5 li {
-  display: grid;
+  display: flex;
   position: relative;
   text-align: center;
   color: white;
 }
 
 .top5 img {
-  width: 15vw;
+  width: 10vw;
   height: auto;
 }
 .top5 h3 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin: 0;
   position: absolute;
   top: 50%;
