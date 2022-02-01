@@ -20,11 +20,13 @@ header {
   margin: 5vh;
   margin-left: 15vw;
   margin-right: 15vw;
+  align-items: baseline;
 }
 
 .header_logo {
   float: left;
   font-family: var(--h1_font);
+  text-align: left;
 }
 header nav {
   float: right;
@@ -52,7 +54,11 @@ main {
 }
 h1 {
   text-align: center;
-  margin-bottom: 5vh;
+  color: var(--blue);
+}
+hr {
+  border: 1px solid var(--blue);
+  margin: 2%;
 }
 img {
   width: 25vw;
@@ -76,7 +82,10 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  border: grey solid 5px;
+  border: #0f123f solid 5px;
+  border-radius: 5px;
+  /* background-color: #0f123f75; */
+
   margin-top: 2vh;
   margin-bottom: 2vh;
 }
@@ -87,8 +96,8 @@ Li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 2vh;
-  margin-bottom: 2vh;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
 }
 .devices img {
   height: 10vh;
@@ -157,5 +166,7 @@ article p {
   transform: translate(-50%, -50%);
 }
 .top5_h2 {
+  font-size: 2em;
   text-align: center;
+  color: var(--orange);
 }
