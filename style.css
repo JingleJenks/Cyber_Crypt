@@ -79,7 +79,8 @@ h3 {
   margin-top: 3vh;
 }
 .inner_blue,
-.inner_blue2 {
+.inner_blue2,
+.inner_blue3 {
   background: linear-gradient(to right, #0f123f, #f5862f);
   margin: unset;
   margin-left: -15vw;
