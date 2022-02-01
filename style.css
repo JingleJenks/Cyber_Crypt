@@ -63,7 +63,7 @@ hr {
   margin: 2%;
 }
 img {
-  width: 25vw;
+  width: 65vw;
   height: 20vh;
   object-fit: cover;
   margin: auto;
@@ -221,6 +221,25 @@ article p {
   }
   header li {
     font-size: 0.8rem;
+  }
+  img {
+    width: 65vw;
+    height: 20vh;
+  }
+  .top5 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .top5 img {
+    width: 30vw;
+    height: auto;
+    margin: 2vh;
+  }
+  .top5 h3 {
+    font-size: 1.2rem;
   }
 }
 
