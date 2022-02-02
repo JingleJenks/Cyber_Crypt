@@ -156,6 +156,11 @@ Li {
   color: var(--orange);
   font-weight: bolder;
 }
+.drop_svg {
+  width: 1.5vw;
+  height: auto;
+  margin-left: 1vw;
+}
 .drop_how {
   margin-left: 5px;
   transform: translate(0px, 0px) scale(1);
@@ -163,7 +168,7 @@ Li {
 }
 
 .arrow_rotated {
-  transform: rotate(180deg);
+  transform: rotate(90deg);
 }
 .hidden {
   display: none;
