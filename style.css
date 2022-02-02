@@ -93,6 +93,8 @@ p {
 h3 {
   margin-top: 3vh;
 }
+/*  */
+/* PARAGRAPH LINES */
 .inner_blue,
 .inner_blue2,
 .inner_blue3 {
@@ -125,6 +127,8 @@ h3 {
     width: 60%;
   }
 }
+/*  */
+/* DEVICES IMG BOX */
 .devices {
   display: flex;
   flex-direction: row;
@@ -175,13 +179,18 @@ article p {
   margin-top: 2vh;
   margin-bottom: 2vh;
 }
+/*  */
+/* TOP 5 HEXs */
+a {
+  color: unset;
+}
 .top5 {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin-top: 2vh;
-  margin-bottom: 2vh;
+  margin-bottom: 5vh;
 }
 .top5 li {
   display: flex;
@@ -198,6 +207,11 @@ article p {
   -webkit-filter: drop-shadow(5px 5px 5px #222);
   filter: drop-shadow(5px 5px 5px #222);
 }
+.top5 img:hover {
+  -webkit-filter: unset;
+  filter: unset;
+}
+
 .top5_article {
   margin-left: 8vw;
   margin-right: 8vw;
